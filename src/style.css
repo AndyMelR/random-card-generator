@@ -1,6 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Montserrat:wght@400;500;600&display=swap");
 
 body {
   background: green;
@@ -9,7 +9,7 @@ body {
 }
 
 .game-container {
-  margin-top: 100px;
+  margin: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,12 +24,13 @@ body {
 }
 
 .card {
-  width: 225px;
-  height: 300px;
+  width: 290px;
+  height: 385px;
   background: white;
   border-radius: 10px;
   margin: 5px;
   padding: 2px;
+  font-family: "Crimson Text", serif;
 }
 
 .card-body {
@@ -71,6 +72,9 @@ btn::before {
 }
 
 .btn-danger {
+  margin-top: 20px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
   background-color: red;
   color: white;
 }
