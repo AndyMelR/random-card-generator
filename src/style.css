@@ -1,1 +1,75 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body {
+  background: green;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 225px;
+  height: 300px;
+  background: white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 2px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.emoticon {
+  font-size: xxx-large;
+  display: flex;
+}
+
+#symbol-reverse {
+  transform: rotate(180deg);
+  justify-content: flex-end;
+}
+
+#generate-card-btn:hover {
+  background: lightcoral;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
