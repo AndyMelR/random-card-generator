@@ -17,7 +17,7 @@ body {
 
 #card-container {
   height: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,9 +51,8 @@ body {
   background: lightcoral;
 }
 
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
+.btn:hover,
+btn::before {
   text-decoration: none;
   padding: 15px 40px;
   display: inline-block;

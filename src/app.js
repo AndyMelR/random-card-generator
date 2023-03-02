@@ -35,7 +35,7 @@ const displayCard = card => {
     cardHTML = `<div class="card">
     <div class="card-body">
       <div class="card-item"><span class="emoticon">${card.symbolRandom}</span></div>
-      <div class="card-item" style="color:red;display:flex;justify-content:center;"><span class="emoticon">${card.numberRandom}</span></div>
+      <div class="card-item" style="font-size:15rem;color:red;display:flex;justify-content:center;"><span class="emoticon">${card.numberRandom}</span></div>
       <div id="symbol-reverse" class="card-item transformed"><span class="emoticon">${card.symbolRandom}</span></div>
     </div>
   </div>`;
@@ -43,7 +43,7 @@ const displayCard = card => {
     cardHTML = `<div class="card">
       <div class="card-body">
         <div class="card-item"><span class="emoticon">${card.symbolRandom}</span></div>
-        <div class="card-item" style="display:flex;justify-content:center;"><span class="emoticon">${card.numberRandom}</span></div>
+        <div class="card-item" style="font-size:15rem;display:flex;justify-content:center;"><span class="emoticon">${card.numberRandom}</span></div>
         <div id="symbol-reverse" class="card-item transformed"><span class="emoticon">${card.symbolRandom}</span></div>
       </div>
     </div>`;
